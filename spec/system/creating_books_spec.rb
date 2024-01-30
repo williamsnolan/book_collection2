@@ -20,5 +20,4 @@ RSpec.describe "CreatingBooks", type: :system do
     expect(book.author).to eq('Nolan')
     expect(book.price).to eq(1.2)
     end
-
 end
