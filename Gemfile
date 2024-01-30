@@ -9,6 +9,14 @@ gem "rails", "~> 7.0.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+group :development, :test do
+  gem 'rspec-rails'
+end
+group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver'
+end
+
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
