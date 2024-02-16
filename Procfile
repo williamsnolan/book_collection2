@@ -1,1 +1,1 @@
-release: rails db:create && rails db:migrate
+release: bundle install && rails db:create && rails db:migrate
